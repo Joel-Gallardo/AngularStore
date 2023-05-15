@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'store';
+  title = 'App tittle';
+  
+  getName(): void {
+    console.log('Hola desde metodo getName en app.component.ts')
+  } 
 }
