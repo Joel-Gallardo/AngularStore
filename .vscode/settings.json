@@ -1,0 +1,10 @@
+{
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "workbench.iconTheme": "material-icon-theme",
+    "breadcrumbs.enabled": true,
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.language.brackets": [],
+    "workbench.colorTheme": "Bearded Theme Black & Amethyst",
+    "workbench.preferredDarkColorTheme": "Visual Studio Dark"
+}

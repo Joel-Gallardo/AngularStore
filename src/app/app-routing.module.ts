@@ -5,11 +5,12 @@ import { PageNotFoundComponent } from './pages/page-not-found/page-not-found.com
 import { HeroesListComponent } from './pages/heroes-list/heroes-list.component';
 
 const routes: Routes = [
-  {path: 'joel', component: JoelComponent},
-  {path: 'heroes-list', component: HeroesListComponent},
-  {path: '', redirectTo: '/joel', pathMatch: 'full'},
+  { path: 'joel', component: JoelComponent },
+  { path: 'heroes-list', component: HeroesListComponent },
+  { path: '', redirectTo: '/joel', pathMatch: 'full' },
+  { path: 'products', loadChildren: () => import('./pages/products/products.module').then(m => m.ProductsModule) },
   //Wild Card Route for 404 request
-  {path: '**', component: PageNotFoundComponent}
+  { path: '**', component: PageNotFoundComponent }
 ];
 
 @NgModule({

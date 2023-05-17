@@ -8,6 +8,7 @@ import { HeaderComponent } from './shared/components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { JoelComponent } from './pages/joel/joel.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,7 @@ import { JoelComponent } from './pages/joel/joel.component';
     FormsModule,
     BrowserAnimationsModule,
     MaterialModule,
-    
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
