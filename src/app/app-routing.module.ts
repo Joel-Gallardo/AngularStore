@@ -9,6 +9,7 @@ const routes: Routes = [
   { path: 'heroes-list', component: HeroesListComponent },
   { path: '', redirectTo: '/joel', pathMatch: 'full' },
   { path: 'products', loadChildren: () => import('./pages/products/products.module').then(m => m.ProductsModule) },
+  { path: 'checkout', loadChildren: () => import('./pages/checkout/checkout.module').then(m => m.CheckoutModule) },
   //Wild Card Route for 404 request
   { path: '**', component: PageNotFoundComponent }
 ];
