@@ -1,22 +1,23 @@
 <mat-toolbar color="primary">
-  <span class="spanMyStore">My Store</span>
+  <a routerLink="/"><span class="spanMyStore">My Store</span></a>
   <a
     class="button"
     routerLink="/joel"
     routerLinkActive="activebutton"
     ariaCurrentWhenActive="page"
   >
-    Main Page
+    Home Page
   </a>
   <a
     class="button"
-    routerLink="/heroes-list"
+    routerLink="/products"
     routerLinkActive="activebutton"
     ariaCurrentWhenActive="page"
   >
-    Heroes
+    Products
   </a>
   <span class="spacer"></span>
   
-  <app-cart></app-cart>
+  <app-cart class="mouseHover" (click)="goToCheckout()"></app-cart>
+
 </mat-toolbar>

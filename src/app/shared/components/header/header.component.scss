@@ -29,3 +29,14 @@
     color: #ffffff;
     text-shadow: 0 1px 0 #528ecc;
 }
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.mouseHover:hover{
+  background-color:blueviolet;
+  cursor: pointer;
+  transition: all 0.7 ease-in-out;
+}
