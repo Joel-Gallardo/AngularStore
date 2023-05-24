@@ -57,7 +57,7 @@
       "price": 45,
       "description": "Learn the essentials and more of TypeScript, a popular superset of the JavaScript language that adds support for static typing. TypeScript combines the typing features of C# or Java.",
       "categoryId": 1,
-      "stock": 0
+      "stock": 10
     },
     {
       "id": 2,
@@ -65,7 +65,7 @@
       "price": 5,
       "description": "En Hackeando del cerebro de tus compradores, Corti nos revela cómo muchas compañías crean productos digitales o procesos de venta capaces de conectar con la psicología del comprador.",
       "categoryId": 1,
-      "stock": 10
+      "stock": 8
     },
     {
       "id": 3,
@@ -73,7 +73,7 @@
       "price": 17,
       "description": "In this book, the reader will be able to focus on one concept of Angular in deep.",
       "categoryId": 1,
-      "stock": 10
+      "stock": 0
     },
     {
       "id": 4,
@@ -81,7 +81,7 @@
       "price": 19,
       "description": "Ideal for Android smartphones and tablets, and MIL cameras. SanDisk Memory Zone app for easy file management (Download and Installation Required).",
       "categoryId": 2,
-      "stock": 10
+      "stock": 7
     },
     {
       "id": 5,
@@ -89,7 +89,7 @@
       "price": 399,
       "description": "5K Video - Shoot stunning video with up to 5K resolution, perfect for maintaining detail even when zooming in",
       "categoryId": 2,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 6,
@@ -97,7 +97,7 @@
       "price": 7,
       "description": "HDMI A Male to A Male Cable: Supports Ethernet, 3D, 4K video and Audio Return Channel (ARC)",
       "categoryId": 2,
-      "stock": 10
+      "stock": 9
     },
     {
       "id": 7,
@@ -148,6 +148,109 @@
       },
       "pickup": false,
       "id": 3
+    },
+    {
+      "name": "joel",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "pickup": false,
+      "id": 4
+    },
+    {
+      "name": "joel",
+      "store": {
+        "id": 2,
+        "name": "Store Alcalá",
+        "address": "Calle de Alcalá, 21",
+        "city": "Madrid",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "pickup": false,
+      "id": 5
+    },
+    {
+      "name": "lastj",
+      "store": {
+        "id": 5,
+        "name": "Monmouth St",
+        "address": "11 Monmouth Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "pickup": false,
+      "id": 6
+    },
+    {
+      "name": "las2",
+      "store": {
+        "id": 4,
+        "name": "Covent Garden - Russell St",
+        "address": "10 Russell Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "pickup": false,
+      "id": 7
+    },
+    {
+      "name": "joel",
+      "shippingAddress": "asd",
+      "city": "dd",
+      "isDelivery": true,
+      "id": 8
+    },
+    {
+      "name": "joel",
+      "store": {
+        "id": 4,
+        "name": "Covent Garden - Russell St",
+        "address": "10 Russell Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "isDelivery": false,
+      "id": 9
+    },
+    {
+      "name": "joel0",
+      "store": {
+        "id": 5,
+        "name": "Monmouth St",
+        "address": "11 Monmouth Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "isDelivery": false,
+      "id": 10
+    },
+    {
+      "name": "joel",
+      "store": {
+        "id": 5,
+        "name": "Monmouth St",
+        "address": "11 Monmouth Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "isDelivery": false,
+      "id": 11
+    },
+    {
+      "name": "joel",
+      "store": {
+        "id": 5,
+        "name": "Monmouth St",
+        "address": "11 Monmouth Street",
+        "city": "London",
+        "openingHours": "10:00 - 14:00 and 17:00 - 20:30"
+      },
+      "isDelivery": false,
+      "id": 12
     }
   ],
   "detailsOrders": [
@@ -178,6 +281,107 @@
       ],
       "orderId": 3,
       "id": 3
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 2
+        }
+      ],
+      "orderId": 4,
+      "id": 4
+    },
+    {
+      "details": [
+        {
+          "productId": 2,
+          "productName": "Hackeando el cerebro de tus compradores: PsychoGrowth",
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "productName": "Essential TypeScript 4: From Beginner to Pro",
+          "quantity": 1
+        }
+      ],
+      "orderId": 5,
+      "id": 5
+    },
+    {
+      "details": [
+        {
+          "productId": 1,
+          "productName": "Essential TypeScript 4: From Beginner to Pro",
+          "quantity": 2
+        }
+      ],
+      "orderId": 6,
+      "id": 6
+    },
+    {
+      "details": [
+        {
+          "productId": 4,
+          "productName": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter",
+          "quantity": 2
+        }
+      ],
+      "orderId": 7,
+      "id": 7
+    },
+    {
+      "details": [
+        {
+          "productId": 4,
+          "productName": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter",
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+          "quantity": 1
+        }
+      ],
+      "orderId": 8,
+      "id": 8
+    },
+    {
+      "details": [
+        {
+          "productId": 4,
+          "productName": "SanDisk 128GB Ultra MicroSDXC UHS-I Memory Card with Adapter",
+          "quantity": 1
+        },
+        {
+          "productId": 3,
+          "productName": "Angular Routing: Learn To Create client-side and SPA with Routing and Navigation",
+          "quantity": 1
+        },
+        {
+          "productId": 1,
+          "productName": "Essential TypeScript 4: From Beginner to Pro",
+          "quantity": 2
+        }
+      ],
+      "orderId": 9,
+      "id": 9
+    },
+    {
+      "details": [],
+      "orderId": 10,
+      "id": 10
+    },
+    {
+      "details": [],
+      "orderId": 11,
+      "id": 11
+    },
+    {
+      "details": [],
+      "orderId": 12,
+      "id": 12
     }
   ]
 }

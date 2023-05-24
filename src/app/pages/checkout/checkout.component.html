@@ -15,18 +15,16 @@
       </mat-error>
     </mat-form-field>
 
-    {{ isDelivery }} - isDelivery?
-
     <mat-radio-group class="form__element">
       <p>Choose an option</p>
-      <mat-radio-button
-        checked
+      <mat-radio-button     
         class="radio"
         value="pickup"
         (change)="onPickupOrDelivery(false)"
         >Pickup</mat-radio-button
       >
       <mat-radio-button
+      checked
         class="radio"
         value="delivery"
         (change)="onPickupOrDelivery(true)"
